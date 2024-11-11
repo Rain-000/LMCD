@@ -1,0 +1,93 @@
+Building prefix dict from the default dictionary ...
+Dumping model to file cache /tmp/jieba.cache
+Loading model cost 0.597 seconds.
+Prefix dict has been built successfully.
+collecting all words and their counts
+PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+collected 4133 word types from a corpus of 13295 raw words and 69 sentences
+Creating a fresh vocabulary
+Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 4133 unique words (100.00% of original 4133, drops 0)', 'datetime': '2024-10-26T03:22:47.303955', 'gensim': '4.3.3', 'python': '3.11.4 | packaged by conda-forge | (main, Jun 10 2023, 18:08:17) [GCC 12.2.0]', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.36', 'event': 'prepare_vocab'}
+Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 13295 word corpus (100.00% of original 13295, drops 0)', 'datetime': '2024-10-26T03:22:47.308669', 'gensim': '4.3.3', 'python': '3.11.4 | packaged by conda-forge | (main, Jun 10 2023, 18:08:17) [GCC 12.2.0]', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.36', 'event': 'prepare_vocab'}
+deleting the raw counts dictionary of 4133 items
+sample=0.001 downsamples 31 most-common words
+Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 10556.132541614636 word corpus (79.4%% of prior 13295)', 'datetime': '2024-10-26T03:22:47.325112', 'gensim': '4.3.3', 'python': '3.11.4 | packaged by conda-forge | (main, Jun 10 2023, 18:08:17) [GCC 12.2.0]', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.36', 'event': 'prepare_vocab'}
+estimated required memory for 4133 words and 100 dimensions: 5372900 bytes
+resetting layer weights
+Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2024-10-26T03:22:47.351596', 'gensim': '4.3.3', 'python': '3.11.4 | packaged by conda-forge | (main, Jun 10 2023, 18:08:17) [GCC 12.2.0]', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.36', 'event': 'build_vocab'}
+Word2Vec lifecycle event {'msg': 'training model with 4 workers on 4133 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-10-26T03:22:47.352264', 'gensim': '4.3.3', 'python': '3.11.4 | packaged by conda-forge | (main, Jun 10 2023, 18:08:17) [GCC 12.2.0]', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.36', 'event': 'train'}
+EPOCH 0: training on 13295 raw words (10549 effective words) took 0.0s, 1089943 effective words/s
+EPOCH 1: training on 13295 raw words (10517 effective words) took 0.0s, 1087681 effective words/s
+EPOCH 2: training on 13295 raw words (10610 effective words) took 0.0s, 1119708 effective words/s
+EPOCH 3: training on 13295 raw words (10532 effective words) took 0.0s, 1115526 effective words/s
+EPOCH 4: training on 13295 raw words (10593 effective words) took 0.0s, 1120693 effective words/s
+Word2Vec lifecycle event {'msg': 'training on 66475 raw words (52801 effective words) took 0.1s, 904527 effective words/s', 'datetime': '2024-10-26T03:22:47.411098', 'gensim': '4.3.3', 'python': '3.11.4 | packaged by conda-forge | (main, Jun 10 2023, 18:08:17) [GCC 12.2.0]', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.36', 'event': 'train'}
+Word2Vec lifecycle event {'params': 'Word2Vec<vocab=4133, vector_size=100, alpha=0.025>', 'datetime': '2024-10-26T03:22:47.411420', 'gensim': '4.3.3', 'python': '3.11.4 | packaged by conda-forge | (main, Jun 10 2023, 18:08:17) [GCC 12.2.0]', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.36', 'event': 'created'}
+ID: 2024080200000001, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000002, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000003, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000004, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000005, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000006, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000007, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000008, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000009, Predicted Label: 0, Probability: 0.9991
+ID: 2024080200000010, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000011, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000012, Predicted Label: 0, Probability: 0.9989
+ID: 2024080200000013, Predicted Label: 0, Probability: 0.9965
+ID: 2024080200000014, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000015, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000016, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000018, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000019, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000020, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000021, Predicted Label: 0, Probability: 0.9991
+ID: 2024080200000022, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000023, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000024, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000025, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000026, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000027, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000028, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000029, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000030, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000031, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000032, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000033, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000034, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000035, Predicted Label: 0, Probability: 0.9993
+ID: 2024080200000036, Predicted Label: 0, Probability: 0.9976
+ID: 2024080200000037, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000038, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000039, Predicted Label: 0, Probability: 0.9994
+ID: 2024080200000041, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000042, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000043, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000044, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000045, Predicted Label: 0, Probability: 0.9987
+ID: 2024080200000046, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000047, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000048, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000050, Predicted Label: 0, Probability: 0.9994
+ID: 2024080200000051, Predicted Label: 0, Probability: 0.9993
+ID: 2024080200000052, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000055, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000056, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000057, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000058, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000059, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000060, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000061, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000062, Predicted Label: 0, Probability: 0.9989
+ID: 2024080200000063, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000064, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000065, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000066, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000067, Predicted Label: 0, Probability: 0.9994
+ID: 2024080200000068, Predicted Label: 0, Probability: 0.9994
+ID: 2024080200000069, Predicted Label: 0, Probability: 0.9981
+ID: 2024080200000070, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000071, Predicted Label: 0, Probability: 0.9991
+ID: 2024080200000072, Predicted Label: 0, Probability: 0.9993
+ID: 2024080200000073, Predicted Label: 0, Probability: 0.9995
+ID: 2024080200000074, Predicted Label: 0, Probability: 0.9995
